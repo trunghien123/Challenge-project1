@@ -1,0 +1,131 @@
+.bg-image{
+    width: 100%;
+    height: 100%;
+    background-image: url('images/bg-pattern-top-desktop.svg');
+    background-repeat: no-repeat;
+}
+.body-content{
+    padding: 80px;
+}
+.content-left{
+    padding-right: 194px;
+}
+.title{
+    font-weight: 600;
+    font-size: 52px;
+    width: 400px;
+    line-height: 45px;
+    color: #2f0555;
+}
+.report{
+    padding: 20px 30px;
+    display: flex;
+    background-color: #e7d8d8;
+    border-radius: 8px;
+    width: 80%;
+    color: #2f0555;
+}
+.report p {
+    margin-bottom: 0;
+    font-weight: 500;
+    padding-left: 50px;
+}
+.margin-middle{
+    margin: 15px 0 15px 50px;
+}
+.margin-left{
+    margin-left: 100px;
+}
+.div-card{
+    flex: 1 1 auto;
+    background-color: #4b355f;
+    border-radius: 8px;
+    width: 33.3333%;
+    height: 100%;
+}
+.media-body{
+    margin-top: -3px;
+}
+.card-custom{
+    margin: 50px 30px;
+}
+.card-custom img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.card-custom p{
+    margin: 0;
+    font-size: 13px;
+}
+.card-custom .name{
+    color: #fff;
+    font-weight: 500;
+}
+.card-custom .role{
+    color: #8e9494;
+}
+.card-info{
+    padding-top: 20px;
+    color: #fff;
+}
+@media only screen and (max-width: 992px){
+    .bg-image{
+        width: 100%;
+        height: 100%;
+        background-image: url('images/bg-pattern-top-mobile.svg');
+        background-repeat: no-repeat;
+    }
+    .body-content{
+        padding: 40px;
+    }
+    .title{
+        width: auto;
+        text-align: center;
+        font-size: 35px;
+    }
+    .content-left{
+        padding-right: 0;
+    }
+    .content-left .content{
+        text-align: center;
+        font-size: 15px;
+    }
+    .report{
+        width: 100%;
+        display: block;
+        padding: 10px 20px;
+    }
+    .report .icon-star{
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .report p {
+        padding-left: 0;
+        text-align: center;
+    }
+    .margin-middle{
+        margin: 10px 0;
+    }
+    .col-lg-6{
+        padding: 0;
+    }
+    .margin-left{
+        margin-left: 0;
+    }
+
+    .info-people{
+        display: block !important;
+        margin-top: 50px;
+    }
+    .div-card{
+        width: 100%;
+    }
+    .card-custom{
+        padding: 40px 0;
+        margin: 20px 30px;
+    }
+    .mx-3,.mt-4, .mt-5{
+        margin: 0 !important;
+    }
+}
